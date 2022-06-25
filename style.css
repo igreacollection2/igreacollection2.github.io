@@ -402,7 +402,18 @@ header label span {
   .product .content div {
     padding: 0rem;
   }
+  
+  .product .button-container{
+      margin-top:3rem;
+      margin-bottom: 1rem;
+    }
 
+  .product .button-container .button {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
   /* benefits */
   .benefits {
     display: flex;
