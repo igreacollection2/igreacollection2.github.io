@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+:root {
+  --color-primary-dark: #205072;
+  --color-primary: #329d9c;
+  --color-primary-gradient: linear-gradient(90deg, var(--color-primary-dark), var(--color-primary));
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+section {
+  padding: 0 9%;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 1.2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 2rem;
+    color: var(--color-primary-dark);
+    font-weight: 700;
+  }
+  
+  header .logo span {
+    color: var(--color-primary);
+  }
+  
+  header .navbar a {
+    font-size: 1rem;
+    margin-left: 2rem;
+    color: var(--color-primary-dark);
+  }
+  
+  header .navbar a:hover {
+    color: var(--color-primary);
+  }
+  
+  header input {
+    display: none;
+  }
+  
+  header label span {
+    font-size: 3rem;
+    color: var(--color-primary-dark);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+  }
