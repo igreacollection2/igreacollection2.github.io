@@ -133,11 +133,16 @@ header label span {
   justify-content: space-between;
 }
 
+.product .discount {
+  color: var(--color-primary-dark);
+}
 .product h2 {
   font-size: 2rem;
-  padding: 0.8rem;
+  padding: 0.2rem;
 }
-
+.product h3 {
+  padding: 1rem;
+}
 .product .li {
   display: flex;
   padding: 0.5rem;
@@ -314,9 +319,12 @@ header label span {
   margin: 0.8rem 0;
 }
 
-.author .content p span {
+.author .content h1 {
   color: var(--color-primary);
-  font-weight: 600;
+}
+
+.author .content p span {
+  font-weight: 800;
 }
 
 /* footer */
@@ -512,17 +520,17 @@ header label span {
     margin-bottom: 4rem;
     text-align: center;
   }
-  
+
   .testimony .container {
     display: flex;
     flex-direction: column;
     gap: 0;
   }
-  
+
   .testimony .left {
     flex: 1;
   }
-  
+
   .testimony .right {
     flex: 1;
   }
@@ -533,30 +541,30 @@ header label span {
     margin-bottom: 2rem;
     border-radius: 1rem;
   }
-  
+
   .testimony .card img {
     height: 8rem;
     border-radius: 1rem 0rem 0rem 1rem;
   }
-  
+
   .testimony .card .content-container {
     padding: 1rem;
   }
-  
+
   .testimony .card .content-container h3 {
     font-size: 0.9rem;
   }
-  
+
   .testimony .card .content-container .title {
     font-size: 0.3rem;
     margin-bottom: 0.3rem;
   }
-  
+
   .testimony .card .content-container .words {
     font-size: 0.35rem;
     text-align: justify;
   }
-  
+
   .testimony .more {
     color: var(--color-primary);
     font-weight: 400;
